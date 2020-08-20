@@ -1,0 +1,8 @@
+{
+  "app": {
+    "protocol": "http",
+    "host": "localhost",
+    "port": 3127
+  },
+  "callbackKey": "jKFlwdgiYoMcMM7EFhiSLXOXpVfqT88b"
+}

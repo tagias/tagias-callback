@@ -1,0 +1,30 @@
+{
+  "name": "tagias-callback",
+  "version": "1.0.0",
+  "description": "Sample project for callback method that receives tagias.com annotation result",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon index.js --ignore test.js --ignore README.md",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tagias/tagias-callback.git"
+  },
+  "keywords": [
+    "tagias",
+    "annotation",
+    "tag",
+    "label",
+    "callback"
+  ],
+  "author": "Vladimir Kryazh <vladimir@tagias.com> (https://tagias.com)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "nodemon": "^2.0.4"
+  }
+}
